@@ -1,0 +1,173 @@
+<!-- dokumen html -->
+<!DOCTYPE html>
+<!-- tag html -->
+<html>
+    <!-- tag head -->
+    <head>
+        <!-- melakukan link menuju main.css untuk melakukan styling -->
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <!-- membuat judul web -->
+        <title>CVForge</title>
+    <!-- menutup tag head -->
+    </head>
+    <!-- membuka tag body -->
+    <body>
+        <!-- menentukan alamat menuju login page (login.php) -->
+        <form action="Login.php">
+            <!-- memberi tag nav untuk navigasi bar -->
+            <nav>
+                <!-- membuat unordered list untuk navigasi bar -->
+                <ul>
+                    <!-- membuat menu CVForge yang mengarahkan ke homepage sebelum login (CVForge_1.html) -->
+                    <li style="font-size: 200%;"><a href="CVForge_1.html"><b>CVForge</b></a></li>
+                    <!-- membuat menu Template CV yang mengarahkan ke halaman template sebelum login (Template_1.html) -->
+                    <li style="margin-top: 8px; font-size: 20px;"><a href="Template_1.html">Template CV</a></li>
+                    <!-- membuat menu Profile yang mengarahkan ke halaman login (Login.php) -->
+                    <li style="margin-top: 8px; font-size: 20px;"><a href="Login.php">Profile</a></li>
+                    <!-- memposisikan menu login untuk berada di sebelah kanan -->
+                    <span style="float: right">
+                    <!-- memberikan tag span untuk membuat menu login yang mengarahkan ke halaman login (login.php) -->
+                    <li style="margin-top: 8px; font-size: 20px;"><a href="Login.php">Login</a></li>
+                    <!-- menutup span -->
+                    </span>
+                <!-- menutup unordered list -->
+                </ul>
+            <!-- menutup tag nav -->
+            </nav>
+            <!-- memposisikan ke tengah (center) -->
+            <center>
+            <!-- membuat tabel tanpa border dengan posisi di tengah, margin 200px border tipis, cellpadding 8, dan lebar 45% -->
+            <table border="0" align="center" style="margin-top: 200px; border-collapse: collapse" cellpadding="8" width="45%">
+                <!-- membuat baris -->
+                <tr>
+                    <!-- membuat kolom dengan posisi tengah jenis font arial ukuran 28px berwarna kuning -->
+                    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color:#E9C46A; "><b>Buat CV menarik dengan kreativitas anda dengan<br>CV Forge</b></td>        
+                <!-- menutup baris -->
+                </tr>
+                <!-- membuat baris baru -->
+                <tr>
+                    <!-- membuat kolom baru -->
+                    <td>
+                        <!-- posisi tengah -->
+                        <center>
+                            <!-- membuat tombol submit dengan nama "Buat CV Sekarang" yang dialihkan ke halaman login (Login.php) -->
+                            <input type="submit" id="button_buat_cv" value="BUAT CV SEKARANG" onclick="location.href='Login.php'; return false;">
+                        <!-- menutup tag center -->
+                        </center>
+                    <!-- menutup kolom -->
+                    </td>
+                <!-- menutup baris -->
+                </tr>
+            <!-- menutup tabel -->
+            </table>
+            <!-- menutup tag center -->
+            </center>
+        <!-- menutup form -->
+        </form>
+        <!-- membuat divisi "section-two bg-bright" dengan style individu (style khusus tag ini) dengan margin top 250px -->
+        <div class = "section-two bg-bright" style="margin-top: 250px;">
+            <!-- membuat divisi class "container" -->
+            <div class="container">
+                <!-- membuat divisi "section-two-content" -->
+                <div class="section-two-content">
+                    <!-- membuat divisi "section-items" -->
+                    <div class = "section-items">
+                        <!-- membuat divisi "section-item" -->
+                        <div class = "section-item">
+                            <!-- membuat divisi "section-item-icon" -->
+                            <div class = "section-item-icon">
+                                <!-- memanggil gambar dengan source di dalam folder image yang diatur lebarnya sebesar 25% -->
+                                <img src = "image/undraw_winners_re_wr1l.svg" alt = "" style="width: 25%;">
+                            <!-- menutup divisi -->
+                            </div>
+                            <!-- membuat tag h5 dengan class "section-item-title" -->
+                            <h5 class = "section-item-title">Buatlah resume yang berhasil mendapatkan undangan wawancara!</h5>
+                            <!-- membuat tag p dengan class "text" -->
+                            <p class = "text">Gunakan pembuat resume kami dengan alat pembuatannya yang canggih untuk menceritakan kisah profesional yang menarik bagi para rekruter, manajer perekrutan, dan bahkan para CEO.</p>
+                        <!-- menutup divisi -->
+                        </div>
+                        <!-- membuat divisi "section-item" -->
+                        <div class = "section-item">
+                            <!-- membuat divisi "section-item-icon" -->
+                            <div class = "section-item-icon">
+                                <!-- memanggil gambar dengan source di dalam folder image yang diatur lebarnya sebesar 40% -->
+                                <img src = "image/undraw_portfolio_update_re_jqnp.svg" alt = "" style="width: 40%;">
+                            <!-- menutup divisi -->
+                            </div>
+                            <!-- membuat tag h5 dengan class "section-item-title" -->
+                            <h5 class = "section-item-title">Menulis resume menjadi lebih mudah!</h5>
+                            <!-- membuat tag p dengan class "text" -->
+                            <p class = "text">Menulis resume belum pernah semudah ini. Teks yang sudah dibuat sebelumnya, desain visual, dan lainnya - semuanya sudah terintegrasi ke dalam pembuat resume. Cukup isi rincian Anda.</p>
+                        </div>
+                        <!-- membuat divisi "section-item" -->
+                        <div class = "section-item">
+                            <!-- membuat divisi "section-item-icon" -->
+                            <div class = "section-item-icon">
+                                <!-- memanggil gambar dengan source di dalam folder image -->
+                                <img src = "image/undraw_join_re_w1lh.svg" alt = "">
+                            <!-- menutup divisi -->
+                            </div>
+                            <!-- membuat tag h5 dengan class "section-item-title" -->
+                            <h5 class = "section-item-title">Alat pembuat CV yang telah diuji oleh para rekruter</h5>
+                            <!-- membuat tag p dengan class "text" -->
+                            <p class = "text">Pembangun resume kami dan kontennya yang telah disiapkan telah diuji oleh perekrut dan ahli IT. Kami membantu CV Anda menjadi benar-benar kompetitif dalam proses perekrutan.</p>
+                        <!-- menutup divisi -->
+                        </div>
+                    <!-- menutup divisi -->
+                    </div>
+                <!-- menutup divisi -->
+                </div>
+            <!-- menutup divisi -->
+            </div>
+        <!-- menutup divisi -->
+        </div>
+        <!-- membuat divisi "section-one" -->
+        <div class="section-one">
+            <!-- membuat divisi class "container" -->
+            <div class="container">
+                <!-- membuat divisi class "section-one-content" -->
+                <div class = "section-one-content">
+                    <!-- membuat divisi class "section-one-l" -->
+                    <div class="section-one-l">
+                        <!-- memanggil gambar dengan source link-->   
+                        <img src="image/visual-0c7080adf17f1f207276f613447c924f667dab34b7ac415cd7ef653172defd0b.svg">
+                    <!-- menutup divisi -->
+                    </div>
+                    <!-- membuat divisi class "section-one-r text-center" -->
+                    <div class = "section-one-r text-center">
+                        <!-- membuat h2 dengan class "lg-title" -->
+                        <h2 class = "lg-title">Gunakan pembuat resume terbaik sebagai panduanmu!</h2>
+                        <!-- membuat tag p dengan class "text" -->
+                        <p class = "text">Mendapatkan pekerjaan impian itu bisa terasa seperti tugas yang mustahil. Kami hadir untuk mengubah hal itu. Berikan diri Anda keuntungan nyata dengan pembuat resume online CV Forge</p>
+                        <!-- membuat divisi "btn-group" -->
+                        <div class = "btn-group">
+                            <!-- membuat tombol dengan class "btn btn-primary text-uppercase" yang diarahkan ke Login.php -->
+                            <a href = "Login.php" class = "btn btn-primary text-uppercase">Buatkan Resume Saya</a>
+                        <!-- menutup divisi -->
+                        </div>
+                    <!-- menutup divisi -->
+                    </div>
+                <!-- menutup divisi -->
+                </div>
+            <!-- menutup divisi -->
+            </div>
+        <!-- menutup divisi -->
+        </div>
+    <!-- menutup body -->
+    </body>
+    <!-- membuat footer "footer bg-dark" -->
+    <footer class = "footer bg-dark">
+        <!-- membuat divisi container -->
+        <div class="container">
+            <!-- membuat divisi "footer-content text-center" -->
+            <div class = "footer-content text-center">
+                <!-- membuat divisi "fs-15" -->
+                <p class="fs-15">&copy;Copyright 2023. All Rights Reserved - <span>Project Pemrograman Web</span></p>
+            <!-- menutup divisi -->
+            </div>
+        <!-- menutup divisi -->
+        </div>
+    <!-- menutup footer -->
+    </footer>
+<!-- menutup html -->
+</html>
